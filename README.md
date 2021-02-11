@@ -2,7 +2,10 @@
 
 Dynamic DNS services have been around since the early days of the internet. Generally speaking, internet service providers (ISP's) will reassign an IP address to a subscriber after some period of time or if the user reconnects his or her connection.
 
-This is a fork of [blaize/docker-dynamic-dns](https://hub.docker.com/r/blaize/docker-dynamic-dns/)
+This is a fork of [joweisberg/docker-dynamic-dns] (https://hub.docker.com/r/joweisberg/dynamic-dns)
+...
+which is a fork of [blaize/docker-dynamic-dns](https://hub.docker.com/r/blaize/docker-dynamic-dns/)
+
 
 The environmental variables are as follows:
 * `TZ`: name of the TimeZone - ie. "Etc/UTC" or "Europe/Paris" (https://en.wikipedia.org/wiki/List_of_tz_database_time_zones)
